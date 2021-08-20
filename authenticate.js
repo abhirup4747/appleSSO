@@ -3,7 +3,7 @@ const signInApple = () => {
            window.AppleID.auth.init({
                 clientId : 'com.example.app.signin.dunkin',
                 scope : 'name email',
-                redirectURI : 'https://dev2.dunkindonuts.com/en',
+                redirectURI : 'https://dev2.dunkindonuts.com/bin/servlet/applesigninpoc',
                // state : 'openssl_random_pseudo_bytes',               
                 //usePopup : true //or false defaults to false
             });
