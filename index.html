@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>My Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="resources/css/style2.css">
+
+
+  <script src="resources/js/authenticate.js"></script>
+
+  
+  <!-- for apple sign in
+   
+     <meta name="appleid-signin-client-id" content="com.example.app.signin.dunkin">
+     <meta name="appleid-signin-scope" content="name email"> 
+     <meta name="appleid-signin-redirect-uri" content="https://01pragya.github.io">
+     <meta name="appleid-signin-state" content="openssl_random_pseudo_bytes">
+     <meta name="appleid-signin-use-popup" content="true">-->
+     <script type="text/javascript" src="https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js"></script>
+
+</head>
+
+<body>
+      <p> Sign In with Apple >> </p>             
+     <!-- <div id="appleid-signin" class="signin-button" data-color="black" data-border="true" data-type="sign in"></div>-->
+   <button class="signin-button" onclick="signInApple()">Sign in with Apple</button>
+</body>
+</html>
