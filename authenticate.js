@@ -1,7 +1,7 @@
 const signInApple = () => { 
      // alert("Hello");
            window.AppleID.auth.init({
-                clientId : 'com.example.app.signin.dunkin',
+                clientId : 'com.dunkindonuts.signin',
                 scope : 'name email',
                 redirectURI : 'https://dev2.dunkindonuts.com/bin/servlet/applesigninpoc',
                // state : 'openssl_random_pseudo_bytes',               
